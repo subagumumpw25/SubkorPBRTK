@@ -1,1 +1,114 @@
-
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Subkoordinator BMN</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+    }
+    h2 {
+      color: #003366;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #003366;
+      color: white;
+    }
+    .status-selesai {
+      color: green;
+      font-weight: bold;
+    }
+    .status-proses {
+      color: orange;
+      font-weight: bold;
+    }
+    .status-belum {
+      color: red;
+      font-weight: bold;
+    }
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #888;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dashboard Subkoordinator</h1>
+    <p>Pengelolaan BMN, Rumah Tangga, dan Kearsipan</p>
+  </header>  <div class="container">
+    <h2>Rencana Kerja & Realisasi</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Kegiatan</th>
+          <th>Bidang</th>
+          <th>Target Waktu</th>
+          <th>Status</th>
+          <th>Progres</th>
+          <th>PIC</th>
+          <th>Catatan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Inventarisasi BMN Semester I</td>
+          <td>BMN</td>
+          <td>30 Juni 2025</td>
+          <td class="status-proses">⏳ Dalam Proses</td>
+          <td>80%</td>
+          <td>Andi</td>
+          <td>Perlu verifikasi SIMAK</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Pemeliharaan AC Ruang Rapat</td>
+          <td>Rumah Tangga</td>
+          <td>15 Mei 2025</td>
+          <td class="status-selesai">✅ Selesai</td>
+          <td>100%</td>
+          <td>Budi</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Penataan Arsip Inaktif</td>
+          <td>Kearsipan</td>
+          <td>10 Juni 2025</td>
+          <td class="status-belum">❌ Belum Mulai</td>
+          <td>0%</td>
+          <td>Citra</td>
+          <td>Menunggu disposisi</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>  <div class="footer">
+    &copy; 2025 Unit Pengelolaan Umum - Dashboard Subkoordinator
+  </div>
+</body>
+</html>
